@@ -1,0 +1,10 @@
+<ul class="list-group">
+    <app-post-list-item-component *ngFor="let post of postes; let i= index"
+        [post]="post"
+        [index]="i"></app-post-list-item-component>
+        <!-- [title]="post.title"
+        [contenu]="post.contenu"
+        [loveIts]= "post.loveIts"
+        [created_at]= "post.created_at"> </app-post-list-item-component> -->
+        
+</ul>
